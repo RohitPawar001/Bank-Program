@@ -22,7 +22,9 @@ def withdraw(balance):
 def main():
     balance = 0
     return_state = True
-    print("**********************\n       BANK PROGRAM          \n**********************")
+    print("*****************************")
+    print("       BANK PROGRAM          ")
+    print("*****************************")
     while return_state:
         print("**********************")
         print("1.SHOW BALANCE")
@@ -44,7 +46,9 @@ def main():
         else:
             print("Please enter valid choice")
 
-    print("**********************\nTHANK YOU FOR BANKING WITH US\n**********************")
+    print("*******************************")
+    print("THANK YOU FOR BANKING WITH US")
+    print("*********************************")
             
  
 if __name__ == "__main__":
